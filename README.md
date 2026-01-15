@@ -57,7 +57,7 @@ $ python make_graph_sr.py --mode lora --lm_txt sr-350m-lm.txt --lora_sec_txt 350
 ```
 When it comes to obtain the prefix-based bar graphs, you can run the command below:
 ```console
-python make_graph_sr.py --mode prefix --lm_txt sr-350m-lm.txt --prefix_txt 350m-lr0.01
+$ python make_graph_sr.py --mode prefix --lm_txt sr-350m-lm.txt --prefix_txt 350m-lr0.01
 _p16_lm0.360_con27_kl370.txt --out_dir figures_prefix --tag 350m-lr0.01_p16_lm0.360_con27_kl370
 ```
 
